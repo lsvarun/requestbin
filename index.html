@@ -11,7 +11,7 @@
     ☺☺☺☺☺
   </pre>
   <script>
-    document.getElementById('qparam').innerHTML = JSON.stringify(Object.fromEntries(new URLSearchParams(window.location.search)));
+    document.getElementById('qparam').innerHTML = JSON.stringify(Object.fromEntries(new URLSearchParams(window.location.search)), null, 2);
   </script>
 </body>
 </html>
